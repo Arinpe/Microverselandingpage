@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="header">
+		<img src="images/original_trombones.png" id="header-img">
+		<nav id="nav-bar">
+		  	<a class="nav-link" href="#pricing">Pricing</a>
+		  	<a class="nav-link" href="#video-div">How it Works</a>
+		  	<a class="nav-link" href="#Features">Features</a>
+		</nav>
+	</header>
+
+	<div style="width: 60%; padding-left: 200px;
+	padding-right: 200px;">
+	<h1 >Handcrafted, home-made masterpieces</h1>
+	<form id="form">
+		<input type="text" name="email" id="email" 
+		placeholder="Enter your Email Address"><br><br>
+		<button id="submit" type="submit"
+		href="https://www.freecodecamp.com/email-submit"><strong>Get Started</strong></button>
+	</form>
+
+	<section id="Features">
+		<div class="grid-container">
+			<div> <img src="images/flame.png"></div>
+			<div style="grid-column: 2/ span 3">
+				<h2><bold>Premium Materials</h2>
+				<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+			</div>
+			<div> <img src="images/truck.png"></div>
+			<div style="grid-column: 2/ span 3">
+				<h2><bold>Fast Shipping </h2>
+				<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied..</p>
+			</div>
+			<div> <img src="images/batt.png"></div>
+			<div style="grid-column: 2/ span 3">
+				<h2><bold>Quality Assurance</h2>
+				<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+			</div>
+		<div>
+	</section>
+
+	<section id="video-div" >
+		<div class="flex-container" >
+			<video controls id="video">
+			  	<source src="images/Roman.mp4" type="video/mp4">
+			  	Your browser does not support the video tag.
+			</video>
+		</div>
+	</section>
+
+	</div>
+	<section id="pricing" class="grid-container" 
+	style="text-align: center;">
+		<div>
+			<div id="cards">
+				<p>TENOR TROMBONE</p>
+				<p><strong>$600</strong></p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<button style="padding: 10px; background: #f1c40f">
+					<strong>Select</strong></button>
+			</div>
+		</div>
+		<div>
+			<div id="cards">
+				<p>BASS TROMBONE</p>
+				<p><strong>$600</strong></p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<button style="padding: 10px; background: #f1c40f">
+					<strong>Select</strong></button>
+			</div>
+		</div>
+		</div>
+		<div>
+			<div id="cards">
+				<p>VALVE TROMBONE</p>
+				<p><strong>$600</strong></p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<p>Lorem ipsum.</p>
+				<button style="padding: 10px; background: #f1c40f">
+					<strong>Select</strong></button>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<div style="width: 60%; padding-left: 200px;
+	padding-right: 200px; background-color: #202020;">
+		<div>
+			<ul>
+				<li >Privacy</li>
+				<li>Terms</li>
+				<li>Contact</li>
+			</ul>
+			<p style="float: right; text-align: right;">
+			Copyright 2016, Original Trombones</p>
+		</div>
+	</div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
